@@ -1,0 +1,91 @@
+body{
+    background-color: blueviolet;
+    color:blanchedalmond;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: large;
+}
+header{
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+logo{
+    letter-spacing: 5px;
+    font-size: 1.3em;
+}
+navigation ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+navigation ul li{
+    display: inline-block;
+}
+navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+navigation ul li a:hover{
+    background: #4a4a4a;
+}
+h2,h1{
+    color:blanchedalmond;
+    font-size: 20px;
+}
+p{
+    color:blanchedalmond;
+}
+main{
+    padding-top: 20rem;
+}
+footer{
+    background: gray;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: 2rem;
+    /* background-color: gray;
+    color:blanchedalmond;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: auto;
+    margin: auto;
+    width: auto;
+    height: auto; */
+}
+li{
+    list-style: none;
+}
+/* img{
+    max-width: 100%;
+    width: 100%;
+}
+.galery{
+    max-width: 200px;
+}
+@media(max-width:600px)
+{
+    body{background-color: crimson;}
+    
+}
+@media(min-width:601px)and (max-width:1000px)
+{
+    body{background-color:darkgreen;font-family: Arial, Helvetica, sans-serif;}
+    
+} */

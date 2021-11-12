@@ -1,0 +1,32 @@
+body{
+    background-color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: burlywood;
+}
+.flex{
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.flex section{
+    flex: 1;
+}
+@media screen and (max-width:600px) {
+    body{
+        background-color: brown;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .anchonormal img {
+        width: 100%;
+    }
+    .galery{
+        max-width: 200px;
+    }
+@media screen and (min-width:601px) and (max-width:800px) {
+    body{
+        background-color: green;
+    }
+}
