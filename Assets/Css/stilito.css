@@ -6,7 +6,7 @@ body{
 }
 header{
     background-color: #333;
-    color: white;
+    color:white;
     padding: 2rem 0;
 
     position: fixed;
@@ -15,7 +15,7 @@ header{
     right: 0;
 }
 header a{
-    color: white;
+    color:white;
     text-decoration: none;
 }
 logo-nav-container{
@@ -44,6 +44,9 @@ navigation ul li a{
 navigation ul li a:hover{
     background: #4a4a4a;
 }
+.header{
+    z-index:10;
+}
 h2,h1{
     color:blanchedalmond;
     font-size: 20px;
@@ -52,13 +55,13 @@ p{
     color:blanchedalmond;
 }
 main{
-    padding-top: 20rem;
+    padding-top: 10rem;
 }
 footer{
     background: gray;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 20rem;
     /* background-color: gray;
     color:blanchedalmond;
     text-align: center;

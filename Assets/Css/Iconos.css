@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     
-    :root{
+    .root{
     --facebook: #3b5999
     --instagram:#e4405f;
     --twiter: #55acee;
