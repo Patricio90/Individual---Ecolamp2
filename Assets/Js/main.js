@@ -1,6 +1,3 @@
-alert('Bienvenidos a mi sitio, espero sus comentarios')
-let r = new Date();
-document.getElementById("Fecha").innerHTML=r;
 
 function generarNuevoColor(){
 	var simbolos, color;
@@ -67,3 +64,7 @@ else
 document.fgColor=colortexto
 document.bgColor=colorin
 document.write('<body bgcolor="' + colorin + '" text="' + colortexto + '">')
+
+$(document).ready(function () {
+    $('#example').DataTable();
+  });
