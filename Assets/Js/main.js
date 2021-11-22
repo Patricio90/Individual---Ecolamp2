@@ -9,18 +9,6 @@ function generarNuevoColor(){
 	}
 
 	document.body.style.background = color;
-	document.getElementById("hexadecimal").innerHTML = color;
-	document.getElementById("text").innerHTML = "Copiar Color";
-}
-
-function copiarAlPortapapeles(hexadecimal) {
-	var aux = document.createElement("input");
-	aux.setAttribute("value", document.getElementById(hexadecimal).innerHTML);
-	document.body.appendChild(aux);
-	aux.select();
-	document.execCommand("copy");
-	document.body.removeChild(aux);
-	document.getElementById("text").innerHTML = "Copiado!";
 }
 function dame_numero_aleatorio(superior, inferior){
    var numPosibilidades = (superior + 1) - inferior;
